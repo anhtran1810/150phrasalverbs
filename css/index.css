@@ -1,0 +1,551 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+#home, #start, #about, #contact{
+    background: #490e60;
+}
+
+#questionContainer{
+    margin-top: 10px;
+    padding: 5px;
+    background: #ffffff;
+}
+
+#answer1, #answer2, #answer3 {
+    text-align: left;
+    text-transform: lowercase;
+    color: #6b6b6b;
+    font-family: 'Droid Serif', serif;
+    text-shadow: 0px 0px #6b6b6b;
+    padding: 15px 10px 15px 10px;
+}
+
+#next, #already{
+    font-family: 'Droid Serif', serif;
+    text-transform: lowercase;
+    color: #6b6b6b;
+    padding: 15px 10px 15px 10px;
+    text-shadow: 0px 0px #6b6b6b;
+}
+
+#content, #startcontent{
+    background: #490e60;
+    clear: left;
+    padding-bottom: 20px;
+}
+#content2{
+    background: #490e60;
+    clear: left;
+}
+
+
+/*Progress bar: learn*/
+#learnPr,#learnPrPack{
+    position: relative;
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+#learnPrBar,#learnPrBarPack {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #2d8bc9;
+}
+#learnPrLabel {
+    text-align: center; /* If you want to center it */
+    line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+}
+
+/*Progress bar remem*/
+#rememPr,#rememPrPack {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+#rememPrBar,#rememPrBarPack {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #ff7b00;
+}
+#rememPrLabel {
+    text-align: center; /* If you want to center it */
+    line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+}
+
+/*Progress bar master*/
+#masterPr,#masterPrPack {
+    position: relative;
+    width: 100%;
+    height: 17px;
+    background-color: white;
+}
+#masterPrBar,#masterPrBarPack {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color:#9EF957 ;
+}
+#masterPrLabel {
+    text-align: center; /* If you want to center it */
+    line-height: 20px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color: white;
+}
+
+#progressDiv,#progressDivPack{
+    margin-top: 20px;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background: #490e60;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*#footer{
+    background: #490e60;
+    padding: 20px;
+}*/
+.packageDiv{
+    display: none;
+}
+
+.labelProgress{
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-shadow: 0px 0px #FF0000;
+    color: white;
+    text-transform: lowercase;
+}
+
+#learnPrText{
+    margin-top: 5px;
+}
+
+#level{
+
+    font-weight: bold;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: right;
+    font-family: 'Droid Serif', serif;
+    text-shadow: 0px 0px #ffffff;
+    color: #9EF957;
+    font-size: 13px;
+}
+
+#levelBack{
+    visibility: hidden;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-top: 5px;
+    color: #6b6b6b;
+    text-align: right;
+    
+    text-shadow: 0px 0px #ffffff;
+    
+    font-size: 10px;
+}
+
+#questionText{
+    margin-top: 0px;
+    text-transform: lowercase;
+    font-size: 40px;
+    font-family: 'Droid Serif', serif;
+}
+
+#expand{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#meaning,#synonym{
+    
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+}
+
+#example{
+    
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+}
+
+#levelExpand{
+    margin-bottom: 10px;
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#levelExpand_p1{
+    font-size: 13px;
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 2px;
+}
+#levelExpand_p2{
+    font-size: 13px;
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+    margin-top: 3px;
+}
+#levelExpand_p3{
+    font-size: 13px;
+    font-family: 'Droid Serif', serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#levelExpand_p4{
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Droid Serif', serif;
+    margin-top: 0px;
+}
+
+#correctChart {
+
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+    height: 12px;
+    background-color: #ff7b00;
+}
+#correctChartBar {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #9EF957;
+}
+
+
+.listItem{
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #4f4f4f;
+    position: relative;
+    /*margin: 10px auto;*/
+    margin-bottom: 10px;
+    padding: 5px 15px 15px 15px;
+    background: white;
+}
+
+#list{
+    background: #490e60;
+}
+
+.listItemText{
+    text-transform: lowercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Droid Serif', serif;
+    text-shadow: 0px 0px #4f4f4f;
+    color: #4f4f4f;
+    
+}
+
+.listItemText2{
+    color: #4f4f4f;
+    text-shadow: 0px 0px #4f4f4f;
+    /*padding-left: 5px;*/
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+}
+
+.listItemText_Level{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-right: 10px;
+    text-align: right;
+    color: #4f4f4f;
+    text-shadow: 0px 0px #4f4f4f;
+    /*padding-left: 5px;*/
+    /*text-transform: lowercase;*/
+    font-family: 'Droid Serif', serif;
+}
+
+.new{color: gray;}
+.learned{color: #2d8bc9 ;}
+.rememed{color: #ff7b00 ;}
+.mastered{color: #9EF957;}
+
+#menu_learningPage, #menu_startPage {
+    display: none;
+    clear: left;
+    padding-left: 15px;
+}
+
+.menuItem{
+    color: white;
+    text-shadow: 0px 0px #FF0000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+}
+
+
+#home_barTittle, #start_barTittle, #p2,#p3, #startPageIconShowProgress,#iconMenu{
+    text-shadow: 0px 0px #FF0000;
+    color: white;
+    margin-left: 10px;
+    float: left;
+    display:inline-block;
+    
+}
+#img, #startimg,#img3{
+    margin-left: 10px;
+    float: left;
+    display:inline-block;
+
+}
+
+
+
+#startPageIconShowProgressExtra{
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+#iconExpandListItem{
+    margin-top:15px; 
+    margin-right: 20px;
+    float: right;
+}
+
+#p2{
+    margin-left: 10px;
+    float: left;
+}
+#img2{
+    margin-left: 10px;
+    float: left;
+}
+
+#appnamediv{
+    background: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#loading{
+    text-shadow: 0px 0px #FF0000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+    margin-top: 15px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#next, #already{
+    display: none;
+}
+
+
+/*Page 1*/
+
+.packageDiv{
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #4f4f4f;
+    margin-top: 15px;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.packageText{
+    text-align: center;
+    
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Droid Serif', serif;
+}
+
+
+.packProgress{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.packProgressStatus{
+    font-size: 13px;
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 2px;
+
+}
+.packProgressBk{
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+    height: 12px;
+    background-color: #c0c0c0;
+}
+.packProgressLearn{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #2d8bc9;
+}
+.packProgressRemem{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #ff7b00;
+}
+.packProgressMaster{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: #9EF957;
+}
+
+
+
+.aboutUsText p{
+    color: white;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-family: 'Droid Serif', serif;
+    text-shadow: 0px 0px #ffffff;
+    
+}
+
+#signature{
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 0px #ffffff;
+    text-align: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: 'Droid Serif', serif;
+}

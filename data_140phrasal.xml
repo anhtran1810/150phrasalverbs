@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<vocabulary>
+		<tittle>abide by</tittle>
+		<meaning>tuân theo</meaning>
+		<example>If you want to keep your job here, you mustabide by our rules.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>account for</tittle>
+		<meaning>giải thích</meaning>
+		<example>I hope you can account for the time you were out!</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>add up</tittle>
+		<meaning>làm cho có vẻ hợp lí</meaning>
+		<example>The facts in the case just don’t add up.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>advise against</tittle>
+		<meaning>khuyên không làm gì đó</meaning>
+		<example>I advise against walking alone in this neighborhood.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>agree with</tittle>
+		<meaning>đồng ý với</meaning>
+		<example>I agree with you. I think you should go as well.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>allow for</tittle>
+		<meaning>cho phép</meaning>
+		<example>We need to allow for unexpected charges along the way.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>appeal to</tittle>
+		<meaning>hấp dẫn</meaning>
+		<example>He appealed to the court to change its decision.;A vacation of sunbathing doesn’tappeal to me.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>apply for</tittle>
+		<meaning>ứng tuyển, nộp hồ sơ ứng tuyển</meaning>
+		<example>He applied for a scholarship for next semester.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>back away</tittle>
+		<meaning>lùi lại</meaning>
+		<example>When he saw the bear, he backed away in fright.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>back down</tittle>
+		<meaning>chấp nhận mình đã sai, chịu thua</meaning>
+		<example>Local authorities backed down on their threats to build on that part of the beach.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>back up</tittle>
+		<meaning>hỗ trợ, ủng hộ / sao lưu dữ liệu</meaning>
+		<example>I’m going to be very strict with him. I hope you’ll back me up on this?;You should back up all your computer files in a secure location.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>bank on</tittle>
+		<meaning>hi vọng, mong đợi điều gì đó</meaning>
+		<example>I’m banking on you to help with the charity event.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>black out</tittle>
+		<meaning>ngất đi</meaning>
+		<example>Jenna fell in the parking lot and blacked out.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>block off</tittle>
+		<meaning>ngăn chặn, chặn lại</meaning>
+		<example>The police blocked off the street after the explosion.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>blow up</tittle>
+		<meaning>nổ tung / tức giận, điên tiết</meaning>
+		<example>Tommy blew up the red balloon.;Don’t blow up at me. It’s not my fault.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>boil down to</tittle>
+		<meaning>ăn thua là, nguyên nhân chính (dẫn đến việc gì) là</meaning>
+		<example>It all boils down to who has more power.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>boot up</tittle>
+		<meaning>khởi động</meaning>
+		<example>You need to boot up your computer before you begin to work.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break away</tittle>
+		<meaning>tách biệt khỏi đám đông, bầy đàn</meaning>
+		<example>One of the wolves broke away from his pack.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break down</tittle>
+		<meaning>hư hỏng / mất bình tĩnh</meaning>
+		<example>The washing machine broke downso we had to call in the repair technician.;John broke down when he heard the news.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break into</tittle>
+		<meaning>đột nhập vào</meaning>
+		<example>Burglars broke into my car last night.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break out</tittle>
+		<meaning>bắt đầu một cách đột ngột</meaning>
+		<example>Rioting broke out after the government raised the fuel prices again.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break out of</tittle>
+		<meaning>thoát ra khỏi</meaning>
+		<example>Several prisoners broke out of jail.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>break up</tittle>
+		<meaning>chia tay</meaning>
+		<example>She broke up with Daniel after dating him for five years.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>bring up</tittle>
+		<meaning>nuôi lớn</meaning>
+		<example>Sara is bringing up her children by herself.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>brush up on</tittle>
+		<meaning>cải thiện, xem lại kiến thức về vấn đề gì đó đã biết nhưng bị quên</meaning>
+		<example>I must brush up on my French before going to Paris next month.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>bump into</tittle>
+		<meaning>gặp một cách bất chợt</meaning>
+		<example>I bumped into Adam at the bank. He says “hello”.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>burn out</tittle>
+		<meaning>kiệt sức / hư hỏng (không làm việc được nữa)</meaning>
+		<example>The light bulb burnt out. Please change it.;She needs to work fewer hours. Otherwise she will burn out.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>call back</tittle>
+		<meaning>gọi lại</meaning>
+		<example>Could please call back in ten minutes?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>call off</tittle>
+		<meaning>hủy bỏ</meaning>
+		<example>The game was called off because of bad weather.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>calm down</tittle>
+		<meaning>bình tĩnh</meaning>
+		<example>It took Kylie several hours to calm downafter she saw the accident.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>carry on</tittle>
+		<meaning>tiếp tục</meaning>
+		<example>The soldiers carried on walking in order to get to their post before dark.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>carry out</tittle>
+		<meaning>thực hiện</meaning>
+		<example>His orders were carried out to the letter.;That company does not carry outtests on animals.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>check in</tittle>
+		<meaning>đăng ký vào</meaning>
+		<example>They said I must check in at least three hours before my flight.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>check out</tittle>
+		<meaning>thanh toán, quầy thanh toán</meaning>
+		<example>Donna checked out of the hotel this morning.;I don’t know if this price is correct. I’llcheck it out online.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>clam up</tittle>
+		<meaning>im lặng không muốn nói</meaning>
+		<example>When the police started asking questions, the suspect clammed up.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>clamp down on</tittle>
+		<meaning>hành động mạnh mẽ để ngăn chặn điều gì đó</meaning>
+		<example>The local authorities have decided to clamp down on illegal parking in handicapped parking places.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>come across</tittle>
+		<meaning>tìm thấy một cách tình cờ / xuất hiện như, trông như</meaning>
+		<example>I was cleaning up and came acrosssome old photos of you.;The politician came across as a complete fool during the TV interview.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>come forward</tittle>
+		<meaning>trình diện,xuất hiện, ra mặt</meaning>
+		<example>Has the owner of the winning lotto ticket come forward?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>count on</tittle>
+		<meaning>dựa vào</meaning>
+		<example>You can count on me to keep your secret.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>cut down on</tittle>
+		<meaning>cắt giảm</meaning>
+		<example>I’ve decided to cut down on the amount of sweets I eat.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>cut out</tittle>
+		<meaning>cắt ra</meaning>
+		<example>She cut out a coupon from the newspaper.;You need to cut out all red meat from your diet.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>deal with</tittle>
+		<meaning>đối phó với</meaning>
+		<example>Catherine is not good at dealing withstress.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>die down</tittle>
+		<meaning>suy giảm mức độ</meaning>
+		<example>After the storm died down, we went outside to see the damage it had caused.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>do without</tittle>
+		<meaning>làm mà không có gì đó</meaning>
+		<example>She didn’t get a salary this month, so she’ll have to do without extra treats.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>drag on</tittle>
+		<meaning>kéo dài lâu hơn dự kiến</meaning>
+		<example>The suspect’s trial dragged on longer than we had expected!</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>draw up</tittle>
+		<meaning>viết (hợp đồng, tài liệu)</meaning>
+		<example>They drew up a contract and had me sign it.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>dress up</tittle>
+		<meaning>ăn diện</meaning>
+		<example>Their wedding gave us a chance to dress up and get out of the house.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>drop in</tittle>
+		<meaning>ghé qua</meaning>
+		<example>Why don’t you drop in to see us on your way home?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>drop off</tittle>
+		<meaning>đưa / ngủ quên</meaning>
+		<example>I’ll drop off the papers later today.;I often drop off in front of the TV.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>drop out</tittle>
+		<meaning>bỏ học</meaning>
+		<example>Zack dropped out of college and joined the army.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>ease off</tittle>
+		<meaning>tản ra, làm thoáng ra</meaning>
+		<example>Traffic usually eases off about 7pm</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>end in</tittle>
+		<meaning>kết thúc trong</meaning>
+		<example>Her marriage ended in divorce.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>end up</tittle>
+		<meaning>kết thúc bằng việc gì đó</meaning>
+		<example>If you don’t improve your work habits, you’llend up being fired.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>fall through</tittle>
+		<meaning>thất bại</meaning>
+		<example>His plans to trek through South America fell through when he got sick.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>figure out</tittle>
+		<meaning>tìm ra</meaning>
+		<example>He’s trying to figure out how to earn enough money to go on the trip to Spain.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>fill out</tittle>
+		<meaning>điền</meaning>
+		<example>Please fill out the enclosed form and return it as soon as possible.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>find out</tittle>
+		<meaning>tìm ra</meaning>
+		<example>I’m going to to find out who’s responsible for the power cut.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>focus on</tittle>
+		<meaning>tập trung vào</meaning>
+		<example>Tom had difficultty focusing on work the day before his holiday started.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get along</tittle>
+		<meaning>hòa thuận</meaning>
+		<example>It’s important to get along with your team supervisor.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get at</tittle>
+		<meaning>nhận được ở</meaning>
+		<example>What are you getting at? Do you think I’m to blame?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get away</tittle>
+		<meaning>chạy trốn</meaning>
+		<example>I think we should get away for the weekend.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get by</tittle>
+		<meaning>nhận được bằng</meaning>
+		<example>Students without jobs have a hard timegetting by.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get in</tittle>
+		<meaning>đi vào</meaning>
+		<example>When did you get in last night?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get into</tittle>
+		<meaning>nhận được vào</meaning>
+		<example>How did you get into your car without the keys?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get off</tittle>
+		<meaning>tranh ra</meaning>
+		<example>You should get off the train in Kings Heath.;I can’t get the ink stain off my shirt.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get on</tittle>
+		<meaning>leo lên</meaning>
+		<example>I’m trying to get on the flight to Brussels.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get on with</tittle>
+		<meaning>mang vật gì</meaning>
+		<example>After they split up, she had a hard timegetting on with her life.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get on well with</tittle>
+		<meaning>có được ngày tốt với</meaning>
+		<example>He doesnt get on very well with the other members of the committee.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get out</tittle>
+		<meaning>cút ra</meaning>
+		<example>He had a hard time getting out of Newark because of the snow?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get out of</tittle>
+		<meaning>có được ra khỏi</meaning>
+		<example>Edna’s trying to get out of working the night shift.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get over</tittle>
+		<meaning>vượt qua</meaning>
+		<example>Has she gotten over the flu?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get rid of</tittle>
+		<meaning>thoát khỏi</meaning>
+		<example>Please get rid of that old t-shirt. It’s so ragged.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get together</tittle>
+		<meaning>họp lại</meaning>
+		<example>Let’s get together for your birthday on Saturday.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>get up</tittle>
+		<meaning>thức dậy</meaning>
+		<example>Will you please get up? You’ve got a class in 20 minutes.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>give in</tittle>
+		<meaning>nhượng bộ</meaning>
+		<example>We will never give in to the terrorists’ demands.;I’ll give in my paper tomorrow.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>give up</tittle>
+		<meaning>bỏ cuộc</meaning>
+		<example>Morris gave up drinking 10 years ago.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>go through</tittle>
+		<meaning>đi xuyên qua</meaning>
+		<example>Andy went through a lot of pain after his mother died.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>grow up</tittle>
+		<meaning>lớn lên</meaning>
+		<example>He’s like Peter Pan. He never really grew upat all.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>hand in</tittle>
+		<meaning>tay trong</meaning>
+		<example>Please hand in your papers before Friday.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>hang out</tittle>
+		<meaning>đi chơi</meaning>
+		<example>Susan volunteered at the shelter where shehanded out warm clothes.;Which pub does the team hang out at after the game?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>hang up</tittle>
+		<meaning>Cup may</meaning>
+		<example>If you hang up now, I’ll never speak to you again.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>hold on</tittle>
+		<meaning>Giữ lấy</meaning>
+		<example>Please hold on and a representative will answer your call.;She was so scared on the rollercoaster ride that she held onfor dear life.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>hurry up</tittle>
+		<meaning>nhanh lên</meaning>
+		<example>Hurry up and finish your lunch or we’ll miss the train.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>iron out</tittle>
+		<meaning>sắt ra</meaning>
+		<example>The two countries met at the conference toiron out their differences.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>join in</tittle>
+		<meaning>tham gia vào</meaning>
+		<example>Yes David, you can join in the discussion any time you like.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>join up</tittle>
+		<meaning>tham gia lên</meaning>
+		<example>There was a war on, so some kids were only sixteen when they joined up.;Let’s separate now and join uplater at the restaurant.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>keep on</tittle>
+		<meaning>tiếp tục</meaning>
+		<example>If you keep on making that noise I will get annoyed.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>keep up with</tittle>
+		<meaning>theo kịp với</meaning>
+		<example>I read the paper every day to keep up withthe news.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>kick off</tittle>
+		<meaning>kick off</meaning>
+		<example>The rugby match kicked off at 3 o’clock.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>leave out</tittle>
+		<meaning>bỏ sót</meaning>
+		<example>Please check your form again and make sure nothing is left out.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>let down</tittle>
+		<meaning>hạ xuống</meaning>
+		<example>I feel so let down because they promised me a puppy but all I got was a doll.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look after</tittle>
+		<meaning>chăm sóc</meaning>
+		<example>Andy can you look after your sister until I get back?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look down on</tittle>
+		<meaning>coi thường</meaning>
+		<example>She’s such a snob. She always looks down on anyone who is poor.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look on</tittle>
+		<meaning>nhìn kìa</meaning>
+		<example>If you don’t want to take part in the game you can look on for now.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look for</tittle>
+		<meaning>tìm kiếm</meaning>
+		<example>Harry went to the shop to look for a new computer.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look forward to</tittle>
+		<meaning>hy vọng</meaning>
+		<example>I’m looking forward to my birthday. It’s in two days time.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>look up to</tittle>
+		<meaning>tìm đến</meaning>
+		<example>I always looked up to my father. He was a great man.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>make fun of</tittle>
+		<meaning>làm cho niềm vui của</meaning>
+		<example>It’s not nice to make fun of people in wheelchairs.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>make up</tittle>
+		<meaning>trang điểm</meaning>
+		<example>That’s a good excuse. Did you make up it up yourself?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>mix up</tittle>
+		<meaning>trộn lên</meaning>
+		<example>She had so many cats that she kept mixing up their names.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>move in</tittle>
+		<meaning>chuyển đến</meaning>
+		<example>Did you hear? Our new neighbors aremoving in this afternoon.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>move out</tittle>
+		<meaning>dời đi, chuyển đi, dịch chuyển đi ra</meaning>
+		<example>When are you moving out? We need your office for the new guy.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>nod off</tittle>
+		<meaning>gà gật</meaning>
+		<example>You were so tired after the game that younodded off on the couch.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>own up</tittle>
+		<meaning>sở hữu lên</meaning>
+		<example>Come on. Own up. We know you did it!</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>pass away</tittle>
+		<meaning>chết</meaning>
+		<example>Your grandfather passed away peacefully in his sleep last night.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>pass out</tittle>
+		<meaning>đi ra ngoài</meaning>
+		<example>He didn’t drink enough water so he passed out at the end of the race.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>pay back</tittle>
+		<meaning>hoàn vốn</meaning>
+		<example>I’ll pay you back as soon as I get the loan.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>put off</tittle>
+		<meaning>đưa ra</meaning>
+		<example>Don’t put off until tomorrow, what you can do today.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>put on</tittle>
+		<meaning>đưa vào</meaning>
+		<example>It’s very dark in here. Please put on the light on.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>put out</tittle>
+		<meaning>đưa ra</meaning>
+		<example>The fire fighters were able to put out fire in ten minutes.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>put up</tittle>
+		<meaning>đưa lên</meaning>
+		<example>I can put you up until the weekend but then I’m going away.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>pick up</tittle>
+		<meaning>nhặt lên</meaning>
+		<example>I’ll pick you up at around 7:00 to take you to the airport.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>point out</tittle>
+		<meaning>chỉ ra</meaning>
+		<example>As I already pointed out, there was a mistake in your calculation.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>rely on</tittle>
+		<meaning>dựa vào</meaning>
+		<example>You can rely on me. I always arrive on time.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>rule out</tittle>
+		<meaning>loại trừ</meaning>
+		<example>Since he had a sound alibi, the police ruledhim out as a suspect.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>run away</tittle>
+		<meaning>chạy trốn</meaning>
+		<example>He ran away from home and joined the circus.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>run into</tittle>
+		<meaning>chạy vào</meaning>
+		<example>I’m so glad I ran into you. I need to ask you something.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>run out of</tittle>
+		<meaning>hết</meaning>
+		<example>We’ve run out of milk. I’ll just pop next door to borrow some.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>set off</tittle>
+		<meaning>làm nổi bật</meaning>
+		<example>Let’s set off early to miss the rush hour traffic.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>set up</tittle>
+		<meaning>thiết lập</meaning>
+		<example>They set up their own company when they were still in high school.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>shop around</tittle>
+		<meaning>cửa hàng xung quanh</meaning>
+		<example>Don’t buy that. Let’s shop around and see if we can find something cheaper.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>show off</tittle>
+		<meaning>khoe khoang</meaning>
+		<example>He’s such a show off. He has to tell everybody about his new computer.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>show up</tittle>
+		<meaning>hiện</meaning>
+		<example>I don’t think she’ll show up tonight. Her daughter is sick.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>shut up</tittle>
+		<meaning>câm miệng lại</meaning>
+		<example>Shut up, you’re spoiling the movie!</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>sit down</tittle>
+		<meaning>ngồi xuống</meaning>
+		<example>I think you should sit down. It’s bad news.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>stand up</tittle>
+		<meaning>đứng lên</meaning>
+		<example>The whole stadium stood up for the national anthem.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>stick up for</tittle>
+		<meaning>bênh</meaning>
+		<example>My big brother always stuck up for me when I got into a fight.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>take after</tittle>
+		<meaning>chăm sóc</meaning>
+		<example>Angie really takes after her grandmother.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>take care of</tittle>
+		<meaning>chăm sóc</meaning>
+		<example>Please take care of my cat when I’m away.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>take off</tittle>
+		<meaning>cởi</meaning>
+		<example>The plane will take off as soon as the fog lifts.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>take on</tittle>
+		<meaning>gánh vác</meaning>
+		<example>I hear they’re taking on extra staff for this event.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>take out</tittle>
+		<meaning>đưa ra</meaning>
+		<example>Please take out your mobile phones and turn them off.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>tell off</tittle>
+		<meaning>nói ra</meaning>
+		<example>The coach told her off for not trying hard enough.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>think over</tittle>
+		<meaning>suy nghĩ về ..</meaning>
+		<example>Take your time and think it over before you decide.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>try on</tittle>
+		<meaning>mặc thử</meaning>
+		<example>Go ahead, try it on and see if it fits?</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>turn down</tittle>
+		<meaning>từ chối</meaning>
+		<example>I asked her out but she turned me downflat.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>use up</tittle>
+		<meaning>sử dụng lên</meaning>
+		<example>Your parents used up all the coffee!</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>watch out</tittle>
+		<meaning>xem ra</meaning>
+		<example>Watch out! There’s a dog in the road.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>wear out</tittle>
+		<meaning>dùng củ</meaning>
+		<example>Julie wore out her shoes running the marathons.;Julie was worn out after all that running.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>work out</tittle>
+		<meaning>tập thể dục</meaning>
+		<example>You should work out twice a week at the gym.;Can you work this out? I’m no good at math.</example>
+	</vocabulary>
+	<vocabulary>
+		<tittle>wipe off</tittle>
+		<meaning>chui</meaning>
+		<example>I’ll wash up if you wipe off the table.</example>
+	</vocabulary>
+</data>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>450 Toefl Word</title>
+    </head>
+    <body>
+        <!-- Home page -->
+        <div data-role="page" id="start">
+            <div>
+                <a onclick="toggleMenu_startPage()" id="startimg" href="#" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">Bars Icon</a>
+                <p id="start_barTittle">450 Toefl Words</p>
+                <!-- <p id="startPageIconShowProgress" class="startPageIconShowProgressExtra">progress</p>  -->  
+            </div>
+            <div id="menu_startPage" >
+
+                <p onclick="goToList(0)" class="menuItem"><a class="navi">Danh sách từ vựng</a></p>
+                <p onClick="dropTable()" class="menuItem"><a class="navi">Xóa hết thành tích, học lại từ đầu</a></p>
+                <p onClick="goToContact()" class="menuItem"><a class="navi" href="#contact" >Chúng tôi là ai</a></p>
+            </div>
+            
+
+            <div id="startcontent" data-role="content">
+
+                <div id="pack1" onclick="startLearning(1)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 1</p></h1>
+                    <div class="packProgress">
+                        <p id="st1" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr1a" class="packProgressLearn"></div>
+                          <div id="pr1b" class="packProgressRemem"></div>
+                          <div id="pr1c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack2" onclick="startLearning(2)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 2</p></h1>
+                    <div class="packProgress">
+                        <p id="st2" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr2a" class="packProgressLearn"></div>
+                          <div id="pr2b" class="packProgressRemem"></div>
+                          <div id="pr2c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack3" onclick="startLearning(3)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 3</p></h1>
+                    <div class="packProgress">
+                        <p id="st3" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr3a" class="packProgressLearn"></div>
+                          <div id="pr3b" class="packProgressRemem"></div>
+                          <div id="pr3c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack4" onclick="startLearning(4)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 4</p></h1>
+                    <div class="packProgress">
+                        <p id="st4" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr4a" class="packProgressLearn"></div>
+                          <div id="pr4b" class="packProgressRemem"></div>
+                          <div id="pr4c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack5" onclick="startLearning(5)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 5</p></h1>
+                    <div class="packProgress">
+                        <p id="st5" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr5a" class="packProgressLearn"></div>
+                          <div id="pr5b"class="packProgressRemem"></div>
+                          <div id="pr5c"class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack6" onclick="startLearning(6)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 6</p></h1>
+                    <div class="packProgress">
+                        <p id="st6" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr6a"class="packProgressLearn"></div>
+                          <div id="pr6b" class="packProgressRemem"></div>
+                          <div id="pr6c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack7" onclick="startLearning(7)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 7</p></h1>
+                    <div class="packProgress">
+                        <p id="st7" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr7a" class="packProgressLearn"></div>
+                          <div id="pr7b" class="packProgressRemem"></div>
+                          <div id="pr7c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack8" onclick="startLearning(8)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 8</p></h1>
+                    <div class="packProgress">
+                        <p id="st8" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr8a" class="packProgressLearn"></div>
+                          <div id="pr8b" class="packProgressRemem"></div>
+                          <div id="pr8c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pack9" onclick="startLearning(9)" class="packageDiv" class="ui-shadow ui-corner-all">
+                    <h1><p class="packageText">GÓI TỪ SỐ 9</p></h1>
+                    <div class="packProgress">
+                        <p id="st9" class="packProgressStatus">Package progress status</p>
+                        <div class="packProgressBk">
+                          <div id="pr9a" class="packProgressLearn"></div>
+                          <div id="pr9b" class="packProgressRemem"></div>
+                          <div id="pr9c" class="packProgressMaster"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+            <!-- <footer id="footer" data-role="footer" data-position="fixed"> -->
+            <footer id="progressDiv" data-role="footer" data-position="fixed" >
+                <p id="learnPrText" class="labelProgress">You have learned .. words</p>
+                <div id="learnPr">
+                  <div id="learnPrBar">
+                    <!-- <div id="learnPrLabel">10%</div> -->
+                  </div>
+                </div>
+                <p id="rememPrText" class="labelProgress">You have remembered .. words</p>
+                <div id="rememPr">
+                  <div id="rememPrBar">
+                    <!-- <div  id="rememPrLabel">10%</div> -->
+                  </div>
+                </div>
+                <p id="masterPrText"class="labelProgress">You have mastered.. words</p>
+                <div id="masterPr">
+                  <div id="masterPrBar">
+                    <!-- <div  id="masterPrLabel">10%</div> -->
+                  </div>
+                </div>
+            
+            <!-- </footer> -->
+            </footer>
+
+        </div>    
+
+        <!-- Learn page -->
+        <div data-role="page" id="home">
+            <div class="topBar">
+                <a onclick="toggleMenu_LearningPage()" id="img" href="#" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">Bars Icon</a>
+                <p id="home_barTittle">....</p>
+
+            </div>
+            <div id="menu_learningPage" >
+                <p class="menuItem"><a href="#start" class="navi">Quay lại trang đầu</a></p>
+                <p id="menuItem_learnPage" class="menuItem"><a class="navi">Danh sách từ vựng</a></p>
+                <!--<p onClick="dropTable()" class="menuItem"><a class="navi">Xóa hết thành tích, học lại từ đầu</a></p>-->
+
+            </div>
+            <!-- <header data-role="header" >
+                
+                <div>
+                    <h1 id="appname">450 Toefl Words</h1>
+                    <a href="#" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">Bars Icon</a>
+                    
+                </div>
+                    
+            </header> -->
+
+            <div id="content" data-role="content">
+
+                <!-- <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#home" class="ui-btn-active">Learn</a></li>
+                        <li><a href="#about" >List</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav> -->
+                <div id="questionContainer" class="ui-shadow ui-corner-all">
+                    
+                    <p onclick="levelExpandView()" id="level"></p>
+                    <p onclick="backLevel()" id="levelBack">Cancel</p>
+                    <h1><p id="questionText"></p></h1>
+                    <div id="expand" style="display:none">
+                        <p id="meaning">This is meaning</p>
+                        <p id="synonym">This is meaning</p>
+                        <p id="example">This is example</p>
+                    </div>
+                    <div id="levelExpand" style="display:none">
+                        <p id="levelExpand_p1">You learned this word</p>
+                        <div id="correctChart">
+                          <div id="correctChartBar"></div>
+                        </div>
+                        <p id="levelExpand_p2">Asnwer more 2 question</p>
+                        <div>
+                            <p id="levelExpand_p3">Cấp độ</p>
+                            <p onclick="resetLevel()"id="levelExpand_p4">Reset</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <a id="answer1" class="ui-shadow ui-btn ui-corner-all answer"></a>
+                <a id="answer2" class="ui-shadow ui-btn ui-corner-all answer"></a>
+                <a id="answer3" class="ui-shadow ui-btn ui-corner-all answer"></a>
+                <a id="loading" >Loading..</a>
+                
+                <button id="already" onClick="already()" class="ui-btn ui-icon-check ui-btn-icon-left">I already know this word.</button>
+                <a id="next" onclick="showQuestion()" class="ui-shadow ui-btn ui-corner-all">Tiếp Tục</a>
+
+                
+
+                
+            </div>
+
+
+
+            <!-- <footer id="footer" data-role="footer" data-position="fixed"> -->
+            <footer id="progressDivPack" data-role="footer" data-position="fixed" >
+                <p id="learnPrTextPack" class="labelProgress">You have learned .. words</p>
+                <div id="learnPrPack">
+                  <div id="learnPrBarPack">
+                    <!-- <div id="learnPrLabel">10%</div> -->
+                  </div>
+                </div>
+                <p id="rememPrTextPack" class="labelProgress">You have remembered .. words</p>
+                <div id="rememPrPack">
+                  <div id="rememPrBarPack">
+                    <!-- <div  id="rememPrLabel">10%</div> -->
+                  </div>
+                </div>
+                <p id="masterPrTextPack"class="labelProgress">You have mastered.. words</p>
+                <div id="masterPrPack">
+                  <div id="masterPrBarPack">
+                    <!-- <div  id="masterPrLabel">10%</div> -->
+                  </div>
+                </div>
+            
+            <!-- </footer> -->
+            </footer>
+        </div>
+
+        <!-- About page -->
+        <div data-role="page" id="about">
+            <div>
+                <a id="img2"  class="ui-btn ui-corner-all ui-icon-arrow-l ui-btn-icon-notext">Bars Icon</a>
+                <p id="p2">Word List</p>
+                <!-- <a id="iconExpandListItem" href="#" class="ui-btn ui-corner-all ui-icon-carat-d ui-btn-icon-notext">Carat-d Icon</a>  -->   
+            </div>
+            
+            <div id="content2" data-role="content">
+                <div id="list"></div>
+            </div>
+            
+        </div>
+
+        <!-- Contact page -->
+        <div data-role="page" id="contact">
+            <div>
+                <a onclick="goToStart()"id="img3"  class="ui-btn ui-corner-all ui-icon-arrow-l ui-btn-icon-notext">Bars Icon</a>
+                <p id="p3">Chúng tôi là ai</p>    
+            </div>
+
+            <div class="aboutUsText" data-role="content" style="clear:left">
+                
+                <p >Hello!</p>
+                <p>
+                    Vivamus cursus sapien ac odio mollis, sit amet tempus tortor congue. Cras eu venenatis libero. Mauris in felis eget sapien viverra finibus. Sed ipsum tortor, fringilla aliquet lorem sed, mollis venenatis nisl. Aenean aliquet blandit lorem, sed facilisis sapien ornare sed. Nullam lacinia justo nec ipsum interdum, sed malesuada justo viverra. Phasellus mattis massa erat, sed convallis est viverra eget.
+                </p>
+                <p>
+                    Suspendisse nec rhoncus magna. Sed vulputate, nunc vel facilisis tempor, tellus sapien ullamcorper justo, ut pharetra nisl ante ut odio. Duis maximus libero non diam luctus imperdiet. Proin at mauris vel enim lobortis pellentesque. Integer vitae ultricies libero. Morbi condimentum placerat porttitor. Donec molestie quam lacinia, euismod libero et, viverra mauris.
+                </p>
+                <p>Best wishes to you.</p>
+                <p id="signature" >AT Production</p>
+            </div>
+
+            <footer data-role="footer" data-position="fixed">
+                <h1>Copyright &copy; 2016
+            </footer>
+        </div>
+
+    
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    
+    </body>
+</html>
