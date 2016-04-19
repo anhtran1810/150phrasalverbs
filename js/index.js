@@ -33,7 +33,8 @@ var packArr = [];
 var meaningArr = [];
 var synonymArr = [];
 var exampleArr = []; 
-var db;  
+var db;
+// Biến này để chỉ insert vào db một lần.Sẽ được set giá trị bới local storage
 var firsttime = true;
 
 var totalArr = [];
@@ -90,6 +91,7 @@ function onDeviceReady(){
     // Handle back button
     document.addEventListener("backbutton", onBackKeyDown, false);
 
+    //Set biến firsttime để insert vào database chỉ một lần duy nhất
     localStorage.setItem("firsttime", "true");
 
     audioMedia = null;
