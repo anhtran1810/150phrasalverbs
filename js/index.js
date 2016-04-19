@@ -34,7 +34,7 @@ var meaningArr = [];
 var synonymArr = [];
 var exampleArr = []; 
 var db;  
-var firsttime = true; 
+var firsttime = true;
 
 var totalArr = [];
 var correctArr = [];
@@ -90,7 +90,7 @@ function onDeviceReady(){
     // Handle back button
     document.addEventListener("backbutton", onBackKeyDown, false);
 
-
+    localStorage.setItem("firsttime", "true");
 
     audioMedia = null;
     level = document.getElementById("level");
